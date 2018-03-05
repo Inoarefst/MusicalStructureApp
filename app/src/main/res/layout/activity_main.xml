@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29B6F6"
+    tools:context="com.example.android.musicalstructureapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/header"
+                style="@style/Header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/header" />
+
+            <ImageView
+                android:id="@+id/notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:contentDescription="@string/notes"
+                android:src="@drawable/music" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rock_list"
+                style="@style/CategoryStyle"
+                android:text="@string/rock_list" />
+
+            <TextView
+                android:id="@+id/hip_hop_list"
+                style="@style/Category1Style"
+                android:text="@string/hip_hop_list" />
+
+            <TextView
+                android:id="@+id/party_list"
+                style="@style/CategoryStyle"
+                android:text="@string/party_list" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/sol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/sol"
+            android:src="@drawable/sol" />
+
+    </LinearLayout>
+</ScrollView>
+
+

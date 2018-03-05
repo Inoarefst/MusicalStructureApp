@@ -1,0 +1,47 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Style of the header. -->
+    <style name="Header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/header_view_marginTop</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--Style of rock and party categories of music. -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">@dimen/category_view_paddingTop</item>
+        <item name="android:paddingLeft">@dimen/category_view_paddingLeft</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/category_text_size</item>
+    </style>
+
+    <!--Style of hip hoop category of music. -->
+    <style name="Category1Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingTop">@dimen/category_view_paddingTop</item>
+        <item name="android:layout_marginLeft">@dimen/category_view_marginLeft</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/category_text_size</item>
+    </style>
+</resources>

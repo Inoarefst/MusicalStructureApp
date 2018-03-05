@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="header">Welcome</string>
+    <string name="notes">Image of notes</string>
+    <string name="sol">Image that shows the key of sol</string>
+    <string name="rock_list">Rock mood</string>
+    <string name="hip_hop_list">Hip Hop</string>
+    <string name="party_list">Party time</string>
+    <string name="rock">Having a rock feeling ?</string>
+    <string name="hip_hop">Hip Hop</string>
+    <string name="party">Time to party !</string>
+    <string name="returnToMain">Go to menu</string>
+
+    <!--Names for the category of rock music. -->
+    <string name="rock_song1">To the one I love</string>
+    <string name="rock_artist1">REM</string>
+    <string name="rock_song2">Wind of change</string>
+    <string name="rock_artist2">Scorpions</string>
+    <string name="rock_song3">Another One Bites the Dust</string>
+    <string name="rock_artist3">Queens</string>
+
+    <!--Names for the category of hip hop music. -->
+    <string name="hip_hop_song1">Money For Nothing</string>
+    <string name="hip_hop_artist1">Jamal and Hakeem</string>
+    <string name="hip_hop_song2">Boom Boom Boom Boom</string>
+    <string name="hip_hop_artist2">Lucius and Frida</string>
+    <string name="hip_hop_song3">Like my daddy</string>
+    <string name="hip_hop_artist3">Jamal</string>
+
+    <!--Names for the category of party music. -->
+    <string name="party_song1">Mamma Mia</string>
+    <string name="party_artist1">Abba</string>
+    <string name="party_song2">Copacabana</string>
+    <string name="party_artist2">Barry Manilow</string>
+    <string name="party_song3">Saturday Night Fever</string>
+    <string name="party_artist3">Bee Gees</string>
+</resources>

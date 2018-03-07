@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#29B6F6"
+    android:background="@color/colorPrimaryDark"
     tools:context="com.example.android.musicalstructureapp.MainActivity">
 
     <LinearLayout
@@ -18,17 +18,15 @@
             android:layout_gravity="center_horizontal">
 
             <TextView
-                android:id="@+id/header"
+                android:id="@+id/tv_header"
                 style="@style/Header"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/header" />
 
             <ImageView
-                android:id="@+id/notes"
+                android:id="@+id/iv_music_notes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/header"
+                android:layout_below="@id/tv_header"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="24dp"
                 android:contentDescription="@string/notes"
@@ -41,23 +39,23 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/rock_list"
+                android:id="@+id/tv_rock_list"
                 style="@style/CategoryStyle"
                 android:text="@string/rock_list" />
 
             <TextView
-                android:id="@+id/hip_hop_list"
+                android:id="@+id/tv_hip_hop_list"
                 style="@style/Category1Style"
                 android:text="@string/hip_hop_list" />
 
             <TextView
-                android:id="@+id/party_list"
+                android:id="@+id/tv_party_list"
                 style="@style/CategoryStyle"
                 android:text="@string/party_list" />
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/sol"
+            android:id="@+id/iv_music_sol"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/sol"

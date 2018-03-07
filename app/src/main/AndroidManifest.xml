@@ -19,11 +19,9 @@
         <activity
             android:name=".RockActivity"
             android:label="@string/rock"/>
-
         <activity
             android:name=".HipHopActivity"
             android:label="@string/hip_hop"/>
-
         <activity
             android:name=".PartyActivity"
             android:label="@string/party"/>

@@ -3,6 +3,6 @@
     android:id="@+id/list_view_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="@dimen/view_padding"
     android:orientation="vertical"
-    android:background="#29B6F6" />
+    android:background="@color/colorPrimaryDark" />

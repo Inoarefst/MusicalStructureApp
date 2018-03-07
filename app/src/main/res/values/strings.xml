@@ -3,6 +3,8 @@
     <string name="header">Welcome</string>
     <string name="notes">Image of notes</string>
     <string name="sol">Image that shows the key of sol</string>
+    <string name="iv_play">An image that shows the icon of play</string>
+    <string name="iv_pause">An image that shows the icon of pause</string>
     <string name="rock_list">Rock mood</string>
     <string name="hip_hop_list">Hip Hop</string>
     <string name="party_list">Party time</string>
@@ -10,6 +12,8 @@
     <string name="hip_hop">Hip Hop</string>
     <string name="party">Time to party !</string>
     <string name="returnToMain">Go to menu</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
 
     <!--Names for the category of rock music. -->
     <string name="rock_song1">To the one I love</string>

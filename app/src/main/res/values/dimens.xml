@@ -6,4 +6,8 @@
     <dimen name="category_view_paddingLeft">72dp</dimen>
     <dimen name="category_view_paddingTop">24dp</dimen>
     <dimen name="category_view_marginLeft">170dp</dimen>
+    <dimen name="button_view_text_size">18sp</dimen>
+    <dimen name="view_padding">18dp</dimen>
+    <dimen name="button_marginLeft">50dp</dimen>
+    <dimen name="view_marginBottom">24dp</dimen>
 </resources>

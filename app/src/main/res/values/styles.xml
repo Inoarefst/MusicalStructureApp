@@ -44,4 +44,16 @@
         <item name="android:textAllCaps">false</item>
         <item name="android:textSize">@dimen/category_text_size</item>
     </style>
+
+    <!--Style of the button views. -->
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/button_view_text_size</item>
+        <item name="android:padding">@dimen/view_padding</item>
+    </style>
 </resources>

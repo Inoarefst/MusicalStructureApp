@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Set onClickListener on the rock list text view
-        TextView rockTextView = findViewById(R.id.rock_list);
+        TextView rockTextView = findViewById(R.id.tv_rock_list);
         rockTextView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Set onClickListener on the hip hop list text view
-        TextView hipHopTextView = findViewById(R.id.hip_hop_list);
+        TextView hipHopTextView = findViewById(R.id.tv_hip_hop_list);
         hipHopTextView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Set onClickListener on the party list text view
-        TextView partyTextView = findViewById(R.id.party_list);
+        TextView partyTextView = findViewById(R.id.tv_party_list);
         partyTextView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {

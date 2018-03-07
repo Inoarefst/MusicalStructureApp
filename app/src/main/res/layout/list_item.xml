@@ -5,68 +5,26 @@
     android:background="@color/colorPrimaryDark"
     android:orientation="vertical">
 
-    <ScrollView
-        android:layout_width="match_parent"
+
+    <TextView
+        android:id="@+id/song_title"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/textColor"
+        android:textSize="24sp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/song_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="24dp"
-                android:textColor="@color/textColor"
-                android:textSize="24sp" />
-
-            <TextView
-                android:id="@+id/artist_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/view_marginBottom"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="24dp"
-                android:textColor="@color/textColor"
-                android:textSize="24sp" />
-        </LinearLayout>
-    </ScrollView>
-
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/artist_name"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/view_marginBottom"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button_play"
-            style="@style/ButtonStyle"
-            android:layout_marginLeft="@dimen/button_marginLeft"
-            android:text="@string/play" />
-
-        <ImageView
-            android:id="@+id/iv_play"
-            android:contentDescription="@string/iv_play"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:src="@drawable/play" />
-
-        <Button
-            android:id="@+id/button_pause"
-            style="@style/ButtonStyle"
-            android:layout_marginLeft="@dimen/button_marginLeft"
-            android:text="@string/pause" />
-
-        <ImageView
-            android:id="@+id/iv_pause"
-            android:contentDescription="@string/iv_pause"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:src="@drawable/pause"/>
-    </LinearLayout>
-
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/textColor"
+        android:textSize="24sp" />
 </LinearLayout>
+
+
+
